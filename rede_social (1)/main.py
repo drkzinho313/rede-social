@@ -13,8 +13,7 @@ def main():
     ger_chat.enviar_mensagem(usuario1, usuario2, "Oi Ana, tudo bem?")
     ger_chat.enviar_mensagem(usuario2, usuario1, "Tudo sim e você?")
 
-    print("
-Histórico de mensagens:")
+    print("Histórico de mensagens:")
     mensagens = ger_chat.listar_mensagens(usuario1, usuario2)
     for msg in mensagens:
         print(msg)
